@@ -1,0 +1,71 @@
+# .gitignore for ELK + Kafka Project
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Environment variables
+.env
+.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Docker volumes
+data/elasticsearch/
+data/logstash/
+data/kafka/
+data/zookeeper/
+
+# Logs
+*.log
+logs/
+
+# Elasticsearch
+elasticsearch-data/
+.elasticsearch/
+
+# Kibana
+kibana-data/
+
+# Generated configs
+anomaly_detection_config.json
+kibana_visualizations_config.json
+
+# OS
+Thumbs.db
+Desktop.ini
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
